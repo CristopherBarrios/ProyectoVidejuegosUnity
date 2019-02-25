@@ -14,10 +14,15 @@ public class Jugador : MonoBehaviour
     public Text puntuacion;
     public string escena;
     public string NivelNuevo;
-    // Start is called before the first frame update
+
+    public AudioClip MammaMia;
+    AudioSource Tenesonido;
+
     void Start()
     {
-
+        Tenesonido = GetComponent<AudioSource>();
+        Tenesonido.clip = MammaMia;
+        Tenesonido.Play();
     }
 
     // Update is called once per frame
@@ -43,7 +48,6 @@ public class Jugador : MonoBehaviour
     {
         if (other.gameObject.tag == "muerte")
         {
-            Destroy(gameObject);
             SceneManager.LoadScene(escena);
         }
         if (other.gameObject.tag == "punto")
