@@ -12,7 +12,6 @@ public class Jugador : MonoBehaviour
 
     public int contador = 0;
     public Text puntuacion;
-    public string escena;
     public string NivelNuevo;
 
     public AudioClip MammaMia;
@@ -46,10 +45,6 @@ public class Jugador : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "muerte")
-        {
-            SceneManager.LoadScene(escena);
-        }
         if (other.gameObject.tag == "punto")
         {
             Destroy(other.gameObject);
