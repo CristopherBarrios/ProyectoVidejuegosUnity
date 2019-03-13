@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2132034057734892162}
   - component: {fileID: 2132034057734892163}
-  - component: {fileID: 2132034057734892160}
+  - component: {fileID: 3114690144057702158}
   m_Layer: 0
   m_Name: Hongo
   m_TagString: hongo
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2132034057734892160
+--- !u!61 &3114690144057702158
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

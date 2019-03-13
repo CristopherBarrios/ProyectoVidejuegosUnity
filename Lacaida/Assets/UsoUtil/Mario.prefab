@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8748958052003539211}
   - component: {fileID: 700098704601327009}
   - component: {fileID: 3018973916121930019}
-  - component: {fileID: 249145856934374076}
+  - component: {fileID: 1329660267705436953}
   m_Layer: 0
   m_Name: MarioPoderoso
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   MarioPeque: {fileID: 6308104541407675433}
   MarioPo: {fileID: 4067486661555889048}
   contador: 5
---- !u!61 &249145856934374076
+--- !u!61 &1329660267705436953
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 5863998511977024010}
   - component: {fileID: 5863998511977024021}
   - component: {fileID: 5863998511977024020}
+  - component: {fileID: 389165779795123473}
   m_Layer: 0
   m_Name: Mario
   m_TagString: muerte
@@ -218,6 +219,102 @@ MonoBehaviour:
   puntuacion: {fileID: 0}
   NivelNuevo: 
   MammaMia: {fileID: 0}
+--- !u!82 &389165779795123473
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5863998511977024009}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &6308104541407675433
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +327,7 @@ GameObject:
   - component: {fileID: 6412608647840726356}
   - component: {fileID: 184215506993886582}
   - component: {fileID: 5143778949106208954}
-  - component: {fileID: 1481601511738874871}
+  - component: {fileID: 6582121659225822789}
   m_Layer: 0
   m_Name: MarioNormal
   m_TagString: Untagged
@@ -335,7 +432,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &1481601511738874871
+--- !u!61 &6582121659225822789
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -372,7 +469,7 @@ GameObject:
   - component: {fileID: 2164985331422272569}
   - component: {fileID: 4814068536468042944}
   - component: {fileID: 282175232101998250}
-  - component: {fileID: 5634557268730861088}
+  - component: {fileID: 4977023133210193052}
   m_Layer: 0
   m_Name: MarioGrande
   m_TagString: Untagged
@@ -457,7 +554,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5634557268730861088
+--- !u!61 &4977023133210193052
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

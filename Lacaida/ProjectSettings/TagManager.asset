@@ -11,7 +11,8 @@ TagManager:
   - muerte
   - punto
   - NuevoNivel
-  - estrella
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -21,9 +22,9 @@ TagManager:
   - UI
   - 
   - 
-  - Paredes
+  - fondo
   - Trampas
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -46,12 +47,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: fondo
+    uniqueID: 3456765803
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer
-    uniqueID: 1929527973
-    locked: 0
-  - name: fsdadsfa
-    uniqueID: 4113353167
+  - name: personaje
+    uniqueID: 1845329375
     locked: 0
