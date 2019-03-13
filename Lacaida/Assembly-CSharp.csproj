@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Jugador.cs" />
     <Compile Include="Assets\Scripts\MarioGrande.cs" />
     <Compile Include="Assets\Scripts\MarioP.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Pausa.cs" />
     <Compile Include="Assets\Scripts\Poderes.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
